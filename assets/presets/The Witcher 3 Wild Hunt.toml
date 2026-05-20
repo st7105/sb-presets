@@ -3,6 +3,7 @@ Type = 1
 Id = "8e9d9923-b8fb-4088-aa09-4116cf3be94d"
 Name = "The Witcher 3 Wild Hunt"
 Category = "RPG и приключения"
+ProcessName = "witcher3(?:_dx12)?\\.exe"
 DescriptionShort = ""
 DescriptionLong = ""
 ImageSmall = "ImageSmallProfileAE9Personal"

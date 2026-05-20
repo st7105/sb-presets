@@ -3,6 +3,7 @@ Type = 1
 Id = "18ed8154-a549-42fa-9323-316f945dc3b9"
 Name = "Tom Clancy's Rainbow Six Siege"
 Category = "Тактические"
+ProcessName = "RainbowSix(?:_Vulkan)?\\.exe"
 DescriptionShort = ""
 DescriptionLong = ""
 ImageSmall = "ImageSmallProfileAE9Personal"

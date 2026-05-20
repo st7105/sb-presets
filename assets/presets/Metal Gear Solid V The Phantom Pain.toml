@@ -3,6 +3,7 @@ Type = 1
 Id = "a949fbd6-95a9-48b5-9778-aa4a22bb122f"
 Name = "Metal Gear Solid V The Phantom Pain"
 Category = "RPG и приключения"
+ProcessName = "mgsvtpp\\.exe"
 DescriptionShort = ""
 DescriptionLong = ""
 ImageSmall = "ImageSmallProfileAE9Personal"

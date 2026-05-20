@@ -3,6 +3,7 @@ Type = 1
 Id = "21202081-655d-4549-ba83-51367db6df9a"
 Name = "Fortnite"
 Category = "Шутеры"
+ProcessName = "FortniteClient-Win64-Shipping(?:_EAC|_BE)?\\.exe"
 DescriptionShort = ""
 DescriptionLong = ""
 ImageSmall = "ImageSmallProfileAE9Personal"

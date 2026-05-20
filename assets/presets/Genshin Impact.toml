@@ -3,6 +3,7 @@ Type = 1
 Id = "202ddf5d-e698-43c9-9ad1-b50fcd1503a1"
 Name = "Genshin Impact"
 Category = "RPG и приключения"
+ProcessName = "(?:GenshinImpact|YuanShen)\\.exe"
 DescriptionShort = ""
 DescriptionLong = ""
 ImageSmall = "ImageSmallProfileAE9Personal"

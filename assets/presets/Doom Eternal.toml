@@ -3,6 +3,7 @@ Type = 1
 Id = "340b60a4-1add-4f00-9245-eac14a423515"
 Name = "Doom Eternal"
 Category = "Шутеры"
+ProcessName = "DOOMEternalx64vk\\.exe"
 DescriptionShort = ""
 DescriptionLong = ""
 ImageSmall = "ImageSmallProfileAE9Personal"

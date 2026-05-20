@@ -3,6 +3,7 @@ Type = 1
 Id = "a38e28e9-75f5-4828-b5fd-a0bd62524be8"
 Name = "Red Dead Redemption 2"
 Category = "RPG и приключения"
+ProcessName = "RDR2\\.exe"
 DescriptionShort = ""
 DescriptionLong = ""
 ImageSmall = "ImageSmallProfileAE9Personal"

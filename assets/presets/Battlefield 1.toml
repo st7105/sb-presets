@@ -3,6 +3,7 @@ Type = 1
 Id = "9514b57a-845c-4365-aeca-16eb71c8524e"
 Name = "Battlefield 1"
 Category = "Шутеры"
+ProcessName = "bf1\\.exe"
 DescriptionShort = ""
 DescriptionLong = ""
 ImageSmall = "ImageSmallProfileAE9Personal"

@@ -3,6 +3,7 @@ Type = 1
 Id = "acebd50c-6b08-4eb5-8f1f-cc22c0cb0dc2"
 Name = "PlayerUnknowns Battlegrounds"
 Category = "Шутеры"
+ProcessName = "TslGame\\.exe"
 DescriptionShort = ""
 DescriptionLong = ""
 ImageSmall = "ImageSmallProfileAE9Personal"

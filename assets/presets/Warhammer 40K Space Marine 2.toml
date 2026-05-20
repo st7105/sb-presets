@@ -28,7 +28,7 @@ Level = 0.3
 
 [Settings.Bass]
 Enable = true
-Level = 0.3
+Level = 0.32
 XOver = 80
 SubWooferGain = false
 
@@ -40,7 +40,7 @@ PlusMode = 0
 
 [Settings.DialogPlus]
 Enable = true
-Level = 0.3
+Level = 0.32
 Mode = 0
 
 [Settings.Scout]
@@ -74,7 +74,7 @@ Level = 0.3
 
 [Settings.Bass]
 Enable = true
-Level = 0.38
+Level = 0.42
 XOver = 80
 SubWooferGain = false
 
@@ -86,7 +86,7 @@ PlusMode = 0
 
 [Settings.DialogPlus]
 Enable = true
-Level = 0.3
+Level = 0.32
 Mode = 0
 
 [Settings.Scout]

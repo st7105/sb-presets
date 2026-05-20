@@ -3,6 +3,7 @@ Type = 1
 Id = "c8bcbe15-378b-407b-a9fd-793c7ff92e19"
 Name = "Overwatch"
 Category = "Шутеры"
+ProcessName = "Overwatch\\.exe"
 DescriptionShort = ""
 DescriptionLong = ""
 ImageSmall = "ImageSmallProfileAE9Personal"

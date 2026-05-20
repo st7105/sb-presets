@@ -3,6 +3,7 @@ Type = 1
 Id = "3153344f-f54b-471e-8243-634b492c313c"
 Name = "CounterStrike Global Offensive"
 Category = "Шутеры"
+ProcessName = "csgo\\.exe"
 DescriptionShort = ""
 DescriptionLong = ""
 ImageSmall = "ImageSmallProfileAE9Personal"

@@ -3,6 +3,7 @@ Type = 1
 Id = "0ebc3d9c-bbd6-44c2-9fc9-baed8bc3397a"
 Name = "League Of Legends"
 Category = "MOBA"
+ProcessName = "League of Legends\\.exe"
 DescriptionShort = ""
 DescriptionLong = ""
 ImageSmall = "ImageSmallProfileAE9Personal"

@@ -3,6 +3,7 @@ Type = 1
 Id = "b117134e-cf09-434a-8025-97c672159cfa"
 Name = "Call of Duty Infinite Warfare"
 Category = "Шутеры"
+ProcessName = "iw7_ship\\.exe"
 DescriptionShort = ""
 DescriptionLong = ""
 ImageSmall = "ImageSmallProfileAE9Personal"
