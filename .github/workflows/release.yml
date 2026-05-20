@@ -1,0 +1,64 @@
+name: Release
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+env:
+  PYTHONUTF8: "1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sb-presets-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Prepare release version
+      run: python .github/scripts/release.py prepare
+
+    - name: Validate assets
+      run: python .github/scripts/release.py validate-assets
+
+    - name: Build preset bundle
+      run: python .github/scripts/release.py build-bundle
+
+    - name: Generate update manifest
+      run: python .github/scripts/release.py write-update-manifest --public-base "${{ secrets.WEBDAV_PUBLIC_BASE }}"
+
+    - name: Upload bundle and manifest to WebDAV
+      env:
+        WEBDAV_BASE_URL: ${{ secrets.WEBDAV_BASE_URL }}
+        WEBDAV_USER: ${{ secrets.WEBDAV_USER }}
+        WEBDAV_PASSWORD: ${{ secrets.WEBDAV_PASSWORD }}
+      run: >
+        python .github/scripts/release.py upload-webdav
+        --remote-dir sb-presets
+        --file "${{ env.BUNDLE_PATH }}=${{ env.BUNDLE_NAME }}"
+        --file latest.json=latest.json
+
+    - name: Publish GitHub Release
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: ${{ env.TAG }}
+        target_commitish: ${{ github.sha }}
+        name: ${{ env.RELEASE_NAME }}
+        body_path: release-notes.md
+        make_latest: true
+        files: |
+          ${{ env.BUNDLE_PATH }}
+          latest.json

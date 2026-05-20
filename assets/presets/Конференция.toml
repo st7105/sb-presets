@@ -1,0 +1,106 @@
+Version = "1.0.0.0"
+Type = 1
+Id = "d327982d-3325-427e-aab4-882f96211880"
+Name = "Конференция"
+Category = "Общие"
+DescriptionShort = ""
+DescriptionLong = "A focused profile for voice chats and online meetings. It keeps speech clear and even, reduces low-frequency weight, and avoids an overly wide sound stage so conversations remain natural during long calls."
+ImageSmall = "ImageSmallProfileAE9Personal"
+ImageLarge = "ImageLargeProfileAE9Personal"
+Product = "AE9"
+CreatorName = "The Sound Blaster Team"
+CreatorProfession = "Voice Chat"
+Order = 50
+SpeakerMethod = 0
+
+[[Settings]]
+Type = 0
+
+[Settings.Surround]
+Enable = true
+Level = 0.18
+Mode = 0
+
+[Settings.Crystalizer]
+Enable = true
+Level = 0.42
+
+[Settings.Bass]
+Enable = false
+Level = 0.05
+XOver = 80
+SubWooferGain = false
+
+[Settings.SVM]
+Enable = true
+Level = 0.82
+Mode = 0
+PlusMode = 0
+
+[Settings.DialogPlus]
+Enable = true
+Level = 0.72
+Mode = 0
+
+[Settings.Scout]
+Enable = false
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+GraphicsEQEnable = false
+
+[Settings.SBXMaster]
+Enable = true
+SurroundEnable = true
+CrystalizerEnable = true
+XBassEnable = false
+SVMEnable = true
+DialogPlusEnable = true
+
+[[Settings]]
+Type = 1
+
+[Settings.Surround]
+Enable = true
+Level = 0.12
+Mode = 0
+
+[Settings.Crystalizer]
+Enable = true
+Level = 0.38
+
+[Settings.Bass]
+Enable = false
+Level = 0.05
+XOver = 80
+SubWooferGain = false
+
+[Settings.SVM]
+Enable = true
+Level = 0.78
+Mode = 0
+PlusMode = 0
+
+[Settings.DialogPlus]
+Enable = true
+Level = 0.7
+Mode = 0
+
+[Settings.Scout]
+Enable = false
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+GraphicsEQEnable = false
+
+[Settings.SBXMaster]
+Enable = true
+SurroundEnable = true
+CrystalizerEnable = true
+XBassEnable = false
+SVMEnable = true
+DialogPlusEnable = true

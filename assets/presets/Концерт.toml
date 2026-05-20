@@ -1,0 +1,106 @@
+Version = "1.0.0.0"
+Type = 1
+Id = "c8ac403b-9d52-4c97-a53b-8d650fa4e789"
+Name = "Концерт"
+Category = "Кино и музыка"
+DescriptionShort = ""
+DescriptionLong = "I love parties and loud music. My mixes of emotionally powerful music elevate the house to amazing highs. I unleash a primal energy in people to party all night long."
+ImageSmall = "ImageSmallProfileAE9Personal"
+ImageLarge = "ImageLargeProfileAE9Personal"
+Product = "AE9"
+CreatorName = "The Sound Blaster Team"
+CreatorProfession = "DJ Fiera"
+Order = 30
+SpeakerMethod = 0
+
+[[Settings]]
+Type = 0
+
+[Settings.Surround]
+Enable = true
+Level = 0.67
+Mode = 0
+
+[Settings.Crystalizer]
+Enable = true
+Level = 0.5
+
+[Settings.Bass]
+Enable = true
+Level = 0.6
+XOver = 80
+SubWooferGain = false
+
+[Settings.SVM]
+Enable = true
+Level = 0.6
+Mode = 0
+PlusMode = 0
+
+[Settings.DialogPlus]
+Enable = false
+Level = 0.5
+Mode = 0
+
+[Settings.Scout]
+Enable = false
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+GraphicsEQEnable = false
+
+[Settings.SBXMaster]
+Enable = true
+SurroundEnable = true
+CrystalizerEnable = true
+XBassEnable = true
+SVMEnable = true
+DialogPlusEnable = false
+
+[[Settings]]
+Type = 1
+
+[Settings.Surround]
+Enable = true
+Level = 0.67
+Mode = 0
+
+[Settings.Crystalizer]
+Enable = true
+Level = 0.5
+
+[Settings.Bass]
+Enable = false
+Level = 0.4
+XOver = 80
+SubWooferGain = false
+
+[Settings.SVM]
+Enable = true
+Level = 0.6
+Mode = 0
+PlusMode = 0
+
+[Settings.DialogPlus]
+Enable = false
+Level = 0.5
+Mode = 0
+
+[Settings.Scout]
+Enable = false
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+GraphicsEQEnable = false
+
+[Settings.SBXMaster]
+Enable = true
+SurroundEnable = true
+CrystalizerEnable = true
+XBassEnable = false
+SVMEnable = true
+DialogPlusEnable = false

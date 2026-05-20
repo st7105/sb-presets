@@ -1,0 +1,107 @@
+Version = "1.0.0.0"
+Type = 1
+Id = "74093725-ae7e-4dee-926e-c017244837a7"
+Name = "Hell Let Loose"
+Category = "Тактические"
+ProcessName = "HLL-Win64-Shipping\\.exe"
+DescriptionShort = ""
+DescriptionLong = "A tactical WWII FPS profile for proximity voice, squad radio, footsteps, engines, artillery, gunshot direction, suppression, and large-scale battlefield ambience."
+ImageSmall = "ImageSmallProfileAE9Personal"
+ImageLarge = "ImageLargeProfileAE9Personal"
+Product = "AE9"
+CreatorName = "The Sound Blaster Team"
+CreatorProfession = ""
+Order = 100
+SpeakerMethod = 0
+
+[[Settings]]
+Type = 0
+
+[Settings.Surround]
+Enable = true
+Level = 0.32
+Mode = 0
+
+[Settings.Crystalizer]
+Enable = true
+Level = 0.25
+
+[Settings.Bass]
+Enable = true
+Level = 0.24
+XOver = 80
+SubWooferGain = false
+
+[Settings.SVM]
+Enable = false
+Level = 0.2
+Mode = 0
+PlusMode = 0
+
+[Settings.DialogPlus]
+Enable = true
+Level = 0.2
+Mode = 0
+
+[Settings.Scout]
+Enable = false
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+GraphicsEQEnable = false
+
+[Settings.SBXMaster]
+Enable = true
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+
+[[Settings]]
+Type = 1
+
+[Settings.Surround]
+Enable = true
+Level = 0.5
+Mode = 0
+
+[Settings.Crystalizer]
+Enable = true
+Level = 0.24
+
+[Settings.Bass]
+Enable = true
+Level = 0.3
+XOver = 80
+SubWooferGain = false
+
+[Settings.SVM]
+Enable = false
+Level = 0.2
+Mode = 0
+PlusMode = 0
+
+[Settings.DialogPlus]
+Enable = true
+Level = 0.2
+Mode = 0
+
+[Settings.Scout]
+Enable = false
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+GraphicsEQEnable = false
+
+[Settings.SBXMaster]
+Enable = true
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false

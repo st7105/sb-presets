@@ -1,0 +1,107 @@
+Version = "1.0.0.0"
+Type = 1
+Id = "31724544-e379-45bb-af1c-091f343ca9be"
+Name = "Arma 3"
+Category = "Тактические"
+ProcessName = "arma3(?:_x64)?\\.exe"
+DescriptionShort = ""
+DescriptionLong = "A restrained military simulation profile for long-range gunfire, vehicles, helicopters, radio discipline, and positional awareness without over-compressing dynamics."
+ImageSmall = "ImageSmallProfileAE9Personal"
+ImageLarge = "ImageLargeProfileAE9Personal"
+Product = "AE9"
+CreatorName = "The Sound Blaster Team"
+CreatorProfession = ""
+Order = 100
+SpeakerMethod = 0
+
+[[Settings]]
+Type = 0
+
+[Settings.Surround]
+Enable = true
+Level = 0.28
+Mode = 0
+
+[Settings.Crystalizer]
+Enable = true
+Level = 0.18
+
+[Settings.Bass]
+Enable = true
+Level = 0.18
+XOver = 80
+SubWooferGain = false
+
+[Settings.SVM]
+Enable = false
+Level = 0.2
+Mode = 0
+PlusMode = 0
+
+[Settings.DialogPlus]
+Enable = true
+Level = 0.15
+Mode = 0
+
+[Settings.Scout]
+Enable = false
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+GraphicsEQEnable = false
+
+[Settings.SBXMaster]
+Enable = true
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+
+[[Settings]]
+Type = 1
+
+[Settings.Surround]
+Enable = true
+Level = 0.45
+Mode = 0
+
+[Settings.Crystalizer]
+Enable = true
+Level = 0.18
+
+[Settings.Bass]
+Enable = true
+Level = 0.22
+XOver = 80
+SubWooferGain = false
+
+[Settings.SVM]
+Enable = false
+Level = 0.2
+Mode = 0
+PlusMode = 0
+
+[Settings.DialogPlus]
+Enable = true
+Level = 0.15
+Mode = 0
+
+[Settings.Scout]
+Enable = false
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+GraphicsEQEnable = false
+
+[Settings.SBXMaster]
+Enable = true
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
