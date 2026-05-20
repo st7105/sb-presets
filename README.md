@@ -11,7 +11,7 @@ This repository is asset-only. It does not contain Rust code or publish a crate.
 
 ## Bundle
 
-Every push to `master` validates the assets, builds a zip bundle, publishes it as
+Every push to `main` validates the assets, builds a zip bundle, publishes it as
 a GitHub Release asset, and uploads the same files to WebDAV.
 
 The bundle format is:
