@@ -1,0 +1,107 @@
+Version = "1.0.0.0"
+Type = 1
+Id = "1059f655-0a8d-441b-add1-cffb37aa9e38"
+Name = "Baldur's Gate 3"
+Category = "RPG и приключения"
+ProcessName = "bg3(?:_dx11)?\\.exe"
+DescriptionShort = ""
+DescriptionLong = "A cinematic CRPG profile tuned for long dialogue scenes, narrator lines, spell impacts, ambient soundscapes, and turn-based combat."
+ImageSmall = "ImageSmallProfileAE9Personal"
+ImageLarge = "ImageLargeProfileAE9Personal"
+Product = "AE9"
+CreatorName = "The Sound Blaster Team"
+CreatorProfession = ""
+Order = 100
+SpeakerMethod = 0
+
+[[Settings]]
+Type = 0
+
+[Settings.Surround]
+Enable = true
+Level = 0.5
+Mode = 0
+
+[Settings.Crystalizer]
+Enable = true
+Level = 0.2
+
+[Settings.Bass]
+Enable = true
+Level = 0.18
+XOver = 80
+SubWooferGain = false
+
+[Settings.SVM]
+Enable = true
+Level = 0.3
+Mode = 0
+PlusMode = 0
+
+[Settings.DialogPlus]
+Enable = true
+Level = 0.35
+Mode = 0
+
+[Settings.Scout]
+Enable = false
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+GraphicsEQEnable = false
+
+[Settings.SBXMaster]
+Enable = true
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+
+[[Settings]]
+Type = 1
+
+[Settings.Surround]
+Enable = true
+Level = 0.62
+Mode = 0
+
+[Settings.Crystalizer]
+Enable = true
+Level = 0.22
+
+[Settings.Bass]
+Enable = true
+Level = 0.22
+XOver = 80
+SubWooferGain = false
+
+[Settings.SVM]
+Enable = true
+Level = 0.3
+Mode = 0
+PlusMode = 0
+
+[Settings.DialogPlus]
+Enable = true
+Level = 0.35
+Mode = 0
+
+[Settings.Scout]
+Enable = false
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+GraphicsEQEnable = false
+
+[Settings.SBXMaster]
+Enable = true
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false

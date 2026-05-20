@@ -1,0 +1,107 @@
+Version = "1.0.0.0"
+Type = 1
+Id = "2bcc67c5-d641-4b68-83bc-5a487c09f83a"
+Name = "STALKER 2: Heart of Chornobyl"
+Category = "Шутеры"
+ProcessName = "Stalker2-Win64-Shipping\\.exe"
+DescriptionShort = ""
+DescriptionLong = "An atmospheric survival-shooter profile that preserves silence and ambient cues while sharpening distant gunfire, anomalies, mutants, and faction chatter."
+ImageSmall = "ImageSmallProfileAE9Personal"
+ImageLarge = "ImageLargeProfileAE9Personal"
+Product = "AE9"
+CreatorName = "The Sound Blaster Team"
+CreatorProfession = ""
+Order = 100
+SpeakerMethod = 0
+
+[[Settings]]
+Type = 0
+
+[Settings.Surround]
+Enable = true
+Level = 0.5
+Mode = 0
+
+[Settings.Crystalizer]
+Enable = true
+Level = 0.4
+
+[Settings.Bass]
+Enable = true
+Level = 0.2
+XOver = 80
+SubWooferGain = false
+
+[Settings.SVM]
+Enable = false
+Level = 0.2
+Mode = 0
+PlusMode = 0
+
+[Settings.DialogPlus]
+Enable = true
+Level = 0.25
+Mode = 0
+
+[Settings.Scout]
+Enable = false
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+GraphicsEQEnable = false
+
+[Settings.SBXMaster]
+Enable = true
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+
+[[Settings]]
+Type = 1
+
+[Settings.Surround]
+Enable = true
+Level = 0.6
+Mode = 0
+
+[Settings.Crystalizer]
+Enable = true
+Level = 0.38
+
+[Settings.Bass]
+Enable = true
+Level = 0.25
+XOver = 80
+SubWooferGain = false
+
+[Settings.SVM]
+Enable = false
+Level = 0.2
+Mode = 0
+PlusMode = 0
+
+[Settings.DialogPlus]
+Enable = true
+Level = 0.25
+Mode = 0
+
+[Settings.Scout]
+Enable = false
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+GraphicsEQEnable = false
+
+[Settings.SBXMaster]
+Enable = true
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false

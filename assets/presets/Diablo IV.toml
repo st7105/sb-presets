@@ -1,0 +1,107 @@
+Version = "1.0.0.0"
+Type = 1
+Id = "2f4fe688-db87-4c8b-ad63-bfa5b4d78cd2"
+Name = "Diablo IV"
+Category = "RPG и приключения"
+ProcessName = "Diablo IV\\.exe"
+DescriptionShort = ""
+DescriptionLong = "An isometric ARPG profile balancing dense spell effects, ambient dread, dungeon reverb, and demonic boss roars."
+ImageSmall = "ImageSmallProfileAE9Personal"
+ImageLarge = "ImageLargeProfileAE9Personal"
+Product = "AE9"
+CreatorName = "The Sound Blaster Team"
+CreatorProfession = ""
+Order = 100
+SpeakerMethod = 0
+
+[[Settings]]
+Type = 0
+
+[Settings.Surround]
+Enable = true
+Level = 0.4
+Mode = 0
+
+[Settings.Crystalizer]
+Enable = true
+Level = 0.3
+
+[Settings.Bass]
+Enable = true
+Level = 0.25
+XOver = 80
+SubWooferGain = false
+
+[Settings.SVM]
+Enable = true
+Level = 0.25
+Mode = 0
+PlusMode = 0
+
+[Settings.DialogPlus]
+Enable = true
+Level = 0.25
+Mode = 0
+
+[Settings.Scout]
+Enable = false
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+GraphicsEQEnable = false
+
+[Settings.SBXMaster]
+Enable = true
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+
+[[Settings]]
+Type = 1
+
+[Settings.Surround]
+Enable = true
+Level = 0.5
+Mode = 0
+
+[Settings.Crystalizer]
+Enable = true
+Level = 0.3
+
+[Settings.Bass]
+Enable = true
+Level = 0.3
+XOver = 80
+SubWooferGain = false
+
+[Settings.SVM]
+Enable = true
+Level = 0.28
+Mode = 0
+PlusMode = 0
+
+[Settings.DialogPlus]
+Enable = true
+Level = 0.25
+Mode = 0
+
+[Settings.Scout]
+Enable = false
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+GraphicsEQEnable = false
+
+[Settings.SBXMaster]
+Enable = true
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false

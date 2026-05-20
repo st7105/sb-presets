@@ -1,0 +1,107 @@
+Version = "1.0.0.0"
+Type = 1
+Id = "81c7a52e-a464-4b25-ab60-3a0b2836569a"
+Name = "Warhammer 40,000: Space Marine 2"
+Category = "Шутеры"
+ProcessName = "Space Marine 2\\.exe"
+DescriptionShort = ""
+DescriptionLong = "A third-person co-op shooter profile tuned for chainsword impacts, bolter fire, Tyranid swarms, and squadmate vox callouts."
+ImageSmall = "ImageSmallProfileAE9Personal"
+ImageLarge = "ImageLargeProfileAE9Personal"
+Product = "AE9"
+CreatorName = "The Sound Blaster Team"
+CreatorProfession = ""
+Order = 100
+SpeakerMethod = 0
+
+[[Settings]]
+Type = 0
+
+[Settings.Surround]
+Enable = true
+Level = 0.5
+Mode = 0
+
+[Settings.Crystalizer]
+Enable = true
+Level = 0.3
+
+[Settings.Bass]
+Enable = true
+Level = 0.3
+XOver = 80
+SubWooferGain = false
+
+[Settings.SVM]
+Enable = true
+Level = 0.22
+Mode = 0
+PlusMode = 0
+
+[Settings.DialogPlus]
+Enable = true
+Level = 0.3
+Mode = 0
+
+[Settings.Scout]
+Enable = false
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+GraphicsEQEnable = false
+
+[Settings.SBXMaster]
+Enable = true
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+
+[[Settings]]
+Type = 1
+
+[Settings.Surround]
+Enable = true
+Level = 0.62
+Mode = 0
+
+[Settings.Crystalizer]
+Enable = true
+Level = 0.3
+
+[Settings.Bass]
+Enable = true
+Level = 0.38
+XOver = 80
+SubWooferGain = false
+
+[Settings.SVM]
+Enable = true
+Level = 0.25
+Mode = 0
+PlusMode = 0
+
+[Settings.DialogPlus]
+Enable = true
+Level = 0.3
+Mode = 0
+
+[Settings.Scout]
+Enable = false
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+GraphicsEQEnable = false
+
+[Settings.SBXMaster]
+Enable = true
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false

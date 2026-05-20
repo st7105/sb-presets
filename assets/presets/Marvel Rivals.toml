@@ -1,0 +1,107 @@
+Version = "1.0.0.0"
+Type = 1
+Id = "b3f4fca2-5b23-4974-8885-e887d6817da1"
+Name = "Marvel Rivals"
+Category = "Шутеры"
+ProcessName = "Marvel-Win64-Shipping\\.exe"
+DescriptionShort = ""
+DescriptionLong = "A hero-shooter profile balancing positional cues, ability callouts, ultimates, and team voice lines in dense team-fights."
+ImageSmall = "ImageSmallProfileAE9Personal"
+ImageLarge = "ImageLargeProfileAE9Personal"
+Product = "AE9"
+CreatorName = "The Sound Blaster Team"
+CreatorProfession = ""
+Order = 100
+SpeakerMethod = 0
+
+[[Settings]]
+Type = 0
+
+[Settings.Surround]
+Enable = true
+Level = 0.35
+Mode = 0
+
+[Settings.Crystalizer]
+Enable = true
+Level = 0.4
+
+[Settings.Bass]
+Enable = true
+Level = 0.2
+XOver = 80
+SubWooferGain = false
+
+[Settings.SVM]
+Enable = true
+Level = 0.25
+Mode = 0
+PlusMode = 0
+
+[Settings.DialogPlus]
+Enable = true
+Level = 0.25
+Mode = 0
+
+[Settings.Scout]
+Enable = false
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+GraphicsEQEnable = false
+
+[Settings.SBXMaster]
+Enable = true
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+
+[[Settings]]
+Type = 1
+
+[Settings.Surround]
+Enable = true
+Level = 0.45
+Mode = 0
+
+[Settings.Crystalizer]
+Enable = true
+Level = 0.35
+
+[Settings.Bass]
+Enable = true
+Level = 0.28
+XOver = 80
+SubWooferGain = false
+
+[Settings.SVM]
+Enable = true
+Level = 0.28
+Mode = 0
+PlusMode = 0
+
+[Settings.DialogPlus]
+Enable = true
+Level = 0.25
+Mode = 0
+
+[Settings.Scout]
+Enable = false
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
+GraphicsEQEnable = false
+
+[Settings.SBXMaster]
+Enable = true
+SurroundEnable = false
+CrystalizerEnable = false
+XBassEnable = false
+SVMEnable = false
+DialogPlusEnable = false
