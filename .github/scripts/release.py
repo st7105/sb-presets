@@ -49,7 +49,6 @@ def prepare_release(build: str | None) -> None:
     Path("release-notes.md").write_text(notes + "\n", encoding="utf-8")
 
     append_github_env("BUILD", str(build_number))
-    append_github_env("VERSION", str(build_number))
     append_github_env("TAG", tag)
     append_github_env("RELEASE_NAME", f"{BUNDLE_PREFIX} build {build_number}")
 
@@ -101,7 +100,6 @@ def build_bundle() -> None:
     manifest = {
         "schema_version": 1,
         "build": build_number,
-        "version": str(build_number),
         "commit": git_commit(),
         "preset_count": len(preset_files),
         "logo_count": len(logo_files),
@@ -139,15 +137,16 @@ def build_bundle() -> None:
     append_github_env("LOGO_COUNT", str(len(logo_files)))
 
 
-def write_update_manifest() -> None:
+def write_update_manifest(public_base: str) -> None:
     build_number = required_build()
     bundle_info = read_bundle_info()
     bundle_name = os.environ.get("BUNDLE_NAME", bundle_info["bundle_name"])
+    base = public_base.rstrip("/")
 
     manifest = {
         "build": build_number,
-        "version": str(build_number),
         "bundle": bundle_name,
+        "url": f"{base}/sb-presets/{bundle_name}",
         "sha256": os.environ.get("BUNDLE_SHA256", bundle_info["sha256"]),
         "preset_count": int(os.environ.get("PRESET_COUNT", bundle_info["preset_count"])),
         "logo_count": int(os.environ.get("LOGO_COUNT", bundle_info["logo_count"])),
@@ -226,7 +225,7 @@ def read_bundle_info() -> dict[str, str | int]:
 
 
 def required_build() -> int:
-    build = os.environ.get("BUILD") or os.environ.get("VERSION")
+    build = os.environ.get("BUILD")
     if not build:
         raise SystemExit("BUILD is required. Run prepare first.")
     return int(build)
@@ -285,7 +284,7 @@ def main() -> None:
     elif args.command == "build-bundle":
         build_bundle()
     elif args.command == "write-update-manifest":
-        write_update_manifest()
+        write_update_manifest(args.public_base)
     elif args.command == "upload-webdav":
         upload_webdav(args.remote_dir, args.file)
 

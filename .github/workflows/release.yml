@@ -28,7 +28,7 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Prepare release version
+    - name: Prepare build number
       run: python .github/scripts/release.py prepare
 
     - name: Validate assets
